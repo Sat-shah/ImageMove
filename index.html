@@ -9,22 +9,22 @@
         var margin = 0;
         function MoveClick()
         {
-            margin += 20;
+            margin += 50;
             document.querySelector("img").style.marginLeft = margin + "px";
         }
         function BackClick()
         {
-            margin -= 20;
+            margin -= 50;
             document.querySelector("img").style.marginLeft = margin + "px";
         }
         function DownClick()
         {
-            margin += 20;
+            margin += 50;
             document.querySelector("img").style.marginTop = margin + "px";
         }
         function UpClick()
         {
-            margin -= 20;
+            margin -= 50;
             document.querySelector("img").style.marginTop = margin + "px";
         }
     </script>
@@ -50,10 +50,10 @@
 </head>
 <body>
     <div>
-        <button onclick="MoveClick()">Move 20px</button>
-        <button onclick="BackClick()">Back 20px</button>
-        <button onclick="DownClick()">Down 20px</button>
-        <button onclick="UpClick()">Up 20px</button>
+        <button onclick="MoveClick()">Move 50px</button>
+        <button onclick="BackClick()">Back 50px</button>
+        <button onclick="DownClick()">Down 50px</button>
+        <button onclick="UpClick()">Up 50px</button>
     </div>
     <br><br>
     <img src="./public/Images/avatar.jpg" width="200" height="200" style="margin-left: 50px;">
